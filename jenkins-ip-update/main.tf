@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "mybucket"
+    bucket = "awsom-terraform-state"
     key    = "misc/jenkins-ip-update/terraform.tfstate"
     region = "us-east-1"
   }
